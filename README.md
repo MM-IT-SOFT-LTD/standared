@@ -12,3 +12,4 @@ Please note we have a code of conduct, please follow it in all your interactions
 
 
 
+1. [Commit Message Standard](standards/Commit_message_standard.md)
