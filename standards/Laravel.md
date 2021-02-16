@@ -16,3 +16,5 @@ This is coding standard for laravel developers in order to create production fri
 - Always keep necessary **seeds** to run application without any exception
 - Never edit existing migration file, create new migration files to update schema
 - Always follow **psr-4** autoloading standard while creating new class
+- Never add or commit **user uploeded media**,
+  but add the folder in VCS in order to create symlink by putting a file ( like .gitignore ) 
