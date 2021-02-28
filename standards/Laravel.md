@@ -8,11 +8,18 @@ This is coding standard for laravel developers in order to create production fri
 
 #### Create production friendly product
 
-- Never add or commit third party modules in VCS like **node_modules** or **vendor**
-- Never add or commit IDE configuration settings like **.idea** , **.vscode** etc.
-- Never add or commit **.env** file in VCS
-- Keep **public** directory as servers document root
-- Always compile assets in **production** mode before commit
-- Always keep necessary **seeds** to run application without any exception
-- Never edit existing migration file, create new migration files to update schema
-- Always follow **psr-4** autoloading standard while creating new class
+1. Never add or commit third party modules in VCS like **node_modules** or **vendor**
+
+2. Never add or commit IDE configuration settings like **.idea** , **.vscode** etc.
+
+3. Never add or commit **.env** file in VCS
+
+4. Keep **public** directory as servers document root
+
+5. Always compile assets in **production** mode before commit
+
+6. Always keep necessary **seeds** to run application without any exception
+
+7. Never edit existing migration file, create new migration files to update schema
+
+8. Always follow **psr-4** autoloading standard while creating new class
